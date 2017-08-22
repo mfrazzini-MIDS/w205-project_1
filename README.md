@@ -1,6 +1,16 @@
 # w205-project_1
 
-Operating Instructions:   
+## Overview:
+
+The retail industry continues its prolonged crisis with the disruption the Internet and technology have brought over the past decade.  The surface area for delivering the customer value proposition as a retailer has dramatically thinned, shifted, and is more dynamic than ever.  In this crisis and transformational environment, advanced product expertise and authority is a winning strategy for a retailer.  Currently almost all expert product attribution and classification is manual, labor intensive, and time consuming.  This project prsents a solution to the problem in three key ways:
+
+1.)  A working proof of concept implementation of an end-to-end solution for extracting, storing, retreiving, and analyzing retail e-commerce events and data to provide a basis for determing product that is in need of improved product information and attribution.  
+
+2.)  A serving system providing faceted search and analysis to evaluate product information and attribution.  
+
+3.)  Basic and advanced analytics to detect and predict improved product information and attribution.  
+
+##Operating Instructions:   
 
 Important:  You will not be able to access the files on S3 unless you have provided your Amazon Cannonical User ID - the 64 character user id found in AWS under "My Security Credentials" under the "Account Identifiers" section.  More information on this can be found here: http://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html  Please email one of the project group members with your name and a request for access and your request will be addressed as soon as possible.  You will also need to set Access Keys in the Hive ETL scripts that process the data from the Amazon AWS S3 cloud.  Access keys are created and managed under "My Security Credentials" under the "Access Keys" section.  Very Important: Amazon AWS Access Keys should be kept secure and not shared.  For more information on Access Keys, see this link: http://docs.aws.amazon.com/general/latest/gr/aws-access-keys-best-practices.html   
 
@@ -37,3 +47,7 @@ add jar /usr/lib/hadoop-0.20-mapreduce/lib/hivexmlserde-1.0.5.3.jar;
 
 run weblog_pipeline_hive.sql
 run product_catalog_pipeline_hive.sql 
+
+7.)  Populate PostgreSQL RDBMS tables by following instructions here:
+https://github.com/mfrazzini-MIDS/w205-project_1/blob/master/Hive_to_Postgresql.md
+
