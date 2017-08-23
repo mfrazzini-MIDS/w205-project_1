@@ -64,3 +64,24 @@ run product_catalog_pipeline_hive.sql (https://github.com/mfrazzini-MIDS/w205-pr
 7.)  Populate PostgreSQL RDBMS tables by following instructions here:
 https://github.com/mfrazzini-MIDS/w205-project_1/blob/master/Hive_to_Postgresql.md
 
+8.)  Elasticsearch serving layer setup and integration instructions here:
+https://github.com/mfrazzini-MIDS/w205-project_1/blob/master/ElasticSearch/ES_Setup.sh  
+
+9.)  Basic and Advanced analytic scripts done in R can be found here (input data can be pulled from RDBMS or direct csv export):
+https://github.com/mfrazzini-MIDS/w205-project_1/tree/master/Analytics
+
+## Outcome
+
+*Data pipelines to support hourly performance statistics of product demand
+**Visitor based Product Views / Product Cart Adds
+**Optimizes focus and resource allocation for product information and attribution improvements weighted by demand and opportunity
+
+
+*Statistical model for optimal product information and attributes
+**Optimal number of product images = 6+
+**Optimal number of product features = 6 to 10
+**Statistical evidence that increased facets drive increased product views
+
+
+*Framework for Machine Learning Advanced Analytics
+**Product Information Score and Prediction of Improved Product Information and Attribution
