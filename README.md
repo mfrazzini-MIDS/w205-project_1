@@ -1,9 +1,6 @@
 # w205-project_1
 Project Team Members:
-  Maura Cullen
-  Bala Ganeshan
-  Jonah Smith
-  Mike Frazzini
+  Maura Cullen  ,  Bala Ganeshan  ,  Jonah Smith  ,  Mike Frazzini
 
 ## Overview:
 
